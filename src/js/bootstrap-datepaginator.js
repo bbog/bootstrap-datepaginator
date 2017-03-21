@@ -362,6 +362,14 @@
 			};
 
 			for (var m = start; m.isBefore(end); m.add('days', 1)) {
+				
+				if (this.options.language) {
+					if (typeof m.lang === 'function') {
+						m.lang(this.options.language);
+					} else if (typeof m.locale === 'function') {
+						m.locale(this.options.language);
+					}
+				}
 
 				var valid = ((m.isSame(this.options.startDate) || m.isAfter(this.options.startDate)) &&
 							(m.isSame(this.options.endDate) || m.isBefore(this.options.endDate))) ? true : false;

@@ -2,6 +2,10 @@
 
 ---
 
+**Disclaimer**: This is a fork of [Jon Miles' plugin](https://github.com/jonmiles/bootstrap-datepaginator), with added support for language changing. That's it.
+
+---
+
 A jQuery plugin which takes Twitter Bootstrap's already great pagination component and injects a bit of date based magic. In the process creating a hugely simplified and modularised way of paging date based results in your application.  
 
 ![Bootstrap Date Paginator Default](https://raw.github.com/jondmiles/bootstrap-datepaginator/master/screenshot/default.PNG)
@@ -56,6 +60,18 @@ For advanced configuration, an options object can be passed on initialization.
 
 
 ## Options
+
+### language
+
+String, changes Moment's language. The localization must be included with Moment for it to work
+
+	var options = {
+		language: 'en'
+	}
+	$('#paginator').datepaginator(options);
+
+
+
 
 ### endDate 
 String, or Moment. Default: End of time

@@ -4,6 +4,8 @@
 
 **Disclaimer**: This is a fork of [Jon Miles' plugin](https://github.com/jonmiles/bootstrap-datepaginator), with added support for language changing. That's it.
 
+For more info, read my blog post: [Changing the language for the Bootstrap Date Paginator plugin](https://itsybitsybytes.com/changing-the-language-for-the-bootstrap-date-paginator-plugin/) or check out the demo, where you can test the language change part: [Changing the language for Bootstrap Date Paginator](http://awesomestsite.com/itsybitsybytes-blog-posts/bootstrap-date-paginator/)
+
 ---
 
 A jQuery plugin which takes Twitter Bootstrap's already great pagination component and injects a bit of date based magic. In the process creating a hugely simplified and modularised way of paging date based results in your application.  

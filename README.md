@@ -4,7 +4,7 @@
 
 **Disclaimer**: This is a fork of [Jon Miles' plugin](https://github.com/jonmiles/bootstrap-datepaginator), with added support for language changing. That's it.
 
-For more info, read my blog post: [Changing the language for the Bootstrap Date Paginator plugin](https://itsybitsybytes.com/changing-the-language-for-the-bootstrap-date-paginator-plugin/) or check out the demo, where you can test the language change part: [Changing the language for Bootstrap Date Paginator](http://awesomestsite.com/itsybitsybytes-blog-posts/bootstrap-date-paginator/)
+For more info, read my blog post: [Changing the language for the Bootstrap Date Paginator plugin](https://itsybitsybytes.com/changing-the-language-for-the-bootstrap-date-paginator-plugin/) or check out the demo, where you can test the language change part: [Changing the language for Bootstrap Date Paginator](https://dev.bogdanbucur.eu/itsybitsybytes-blog-posts/bootstrap-date-paginator/)
 
 ---
 
